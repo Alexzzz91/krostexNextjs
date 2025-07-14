@@ -1,0 +1,13 @@
+
+@media (prefers-color-scheme: dark) {
+
+}
+
+.main {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 25px 15px;
+  align-items: center;
+  justify-content: center;
+}

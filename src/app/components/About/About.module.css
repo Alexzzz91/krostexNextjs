@@ -17,7 +17,7 @@
 }
 
 .aboutLead {
-  font-size: large;
+  font-size: 22px;
 }
 
 .advantages {
@@ -56,77 +56,14 @@
   color: var(--primary-color);
 }
 
-.featuredProducts {
-  background-color: white;
-}
-
-.productsGrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  margin-top: 40px;
-}
-
-.delivery {
-  background-color: var(--light-color);
-}
-
-.deliveryContent {
-  padding: 0 10px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  align-items: center;
-  margin-top: 30px;
-}
-
-.delivery-map {
-  height: 400px;
-  background-color: #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.delivery-info {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.delivery-item {
-  display: flex;
-  gap: 15px;
-}
-
-.delivery-icon {
-  color: var(--secondary-color);
-  font-size: 1.5rem;
-}
-
 @media (max-width: 992px) {
   .advantagesGrid {
     grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .productsGrid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .delivery-content {
-    grid-template-columns: 1fr;
-  }
-  
-  .delivery-map {
-    height: 300px;
   }
 }
 
 @media (max-width: 576px) {
   .advantagesGrid {
-    grid-template-columns: 1fr;
-  }
-  
-  .productsGrid {
     grid-template-columns: 1fr;
   }
 }
