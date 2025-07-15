@@ -12,11 +12,25 @@ on:
 jobs:
   release:
     runs-on: self-hosted
-  steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
-      with:
-        node-version: 24
-    - run: npm ci
-    - run: npm run build
-    - run: npm start
+    strategy:
+      matrix:
+        node-version: [ 24 ]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          node-version: ${{ matrix.node-version }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+      - name: Build app
+        run: |
+          npm ci
+          npm run build
+          npm start
