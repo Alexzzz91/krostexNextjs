@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import styles from './Header.module.css';
-import Image from 'next/image';
+// import Image from 'next/image';
 import { SEO } from '@/data/seo';
 
-import image from './assets/MixerTruckYellow-192x192.png'
+// import image from './assets/MixerTruckYellow-192x192.png'
 import { CONTACTS } from '@/data/contacts';
 
 export function Header() {
@@ -11,7 +11,7 @@ export function Header() {
     <header className={styles.header}>
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
-          <Image
+          {/* <Image
             src={image}
             width={500}
             height={200}
@@ -20,14 +20,20 @@ export function Header() {
             objectFit="cover"
             quality={80}
             priority
+          /> */}
+          <img
+            src={'/images/MixerTruckYellow-192x192.png'}
+            width={192}
+            height={192}
+            alt={SEO.site_name}
           />
         </Link>
         
         <nav className={styles.nav}>
           <Link href="/">Главная</Link>
-          <Link href="/catalog">Каталог</Link>
-          <Link href="/about">О компании</Link>
-          <Link href="/contacts">Контакты</Link>
+          <Link href="/catalog.html">Каталог</Link>
+          <Link href="/about.html">О компании</Link>
+          <Link href="/contacts.html">Контакты</Link>
         </nav>
         <div className={styles.contacts}>
           <a href={`tel:${CONTACTS.whatsapp}`}>+7 (904) 589-90-75</a>

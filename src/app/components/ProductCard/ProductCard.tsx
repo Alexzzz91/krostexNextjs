@@ -1,4 +1,4 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import styles from './ProductCard.module.css';
 import { ClientButton } from './ClientButton';
 
@@ -20,7 +20,7 @@ export function ProductCard({ product }: ProductCardProps) {
     <div className={styles.card}>
       <div className={styles.title}>
         <h3>{product.name}</h3>
-        <Image
+        <img
           src={product.image}
           alt={product.name}
           className={styles.image}

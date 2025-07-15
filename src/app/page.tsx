@@ -2,6 +2,14 @@ import { Hero } from './components/Hero';
 import styles from './page.module.css'
 import { Catalog } from './components/Catalog';
 import { About } from './components/About';
+import { Metadata } from 'next';
+import { SEO } from '@/data/seo';
+
+export const metadata: Metadata = {
+  title: `${SEO.site_name}${SEO.title}`,
+  description: SEO.description,
+  keywords: SEO.keywords,
+}
 
 export default function Home() {
   return (

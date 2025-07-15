@@ -31,14 +31,6 @@ export default function RootLayout({
         <meta property="og:locale" content="ru_RU"></meta>
         <meta property="og:type" content="website"></meta>
         <meta property="og:site_name" content={SEO.site_name}></meta>
-        {
-          SEO['JSON+LD'].map((content, i) => {
-            return (
-              <script key={i} type="application/ld+json">
-                {content}
-              </script>
-          )})
-        }
       </Head>
       
       <Header />
@@ -46,6 +38,14 @@ export default function RootLayout({
         {children}
       </body>
       <Footer />
+      {
+        SEO['JSON+LD'].map((content, i) => {
+          return (
+            <script key={i} type="application/ld+json">
+              {content}
+            </script>
+        )})
+      }
     </html>
   );
 }
