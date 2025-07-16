@@ -1,5 +1,5 @@
 export const CONTACTS = {
-    adress: 'Омск, 2-я Солнечная ул., 63',
+    adress: 'Омск, ул.Семиреченская 101А',
     email: 'krostexbeton@gmail.com',
     whatsapp: '+79045899075',
     phones: [
