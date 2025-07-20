@@ -44,7 +44,7 @@ export default function RootLayout({
       {
         SEO['JSON+LD'].map((content, i) => {
           return (
-            <Script key={i} type="application/ld+json">
+            <Script key={i} id={`json+ld-${i}`} type="application/ld+json">
               {content}
             </Script>
         )})
