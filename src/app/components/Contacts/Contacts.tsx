@@ -15,8 +15,9 @@ export function Contacts() {
 
         <h4>Whatsapp</h4>
         
-        <QRCodeSVG value={`https://wa.me/${CONTACTS.whatsapp}`} />,
-        
+        <QRCodeSVG value={`https://wa.me/${CONTACTS.whatsapp}`} />
+        <a href={`https://wa.me/${CONTACTS.whatsapp}`}> Whatsapp</a>
+
         <p>{CONTACTS.adress}</p>
         <p>Пн-Пт: 8:00 - 18:00</p>
       </div>
