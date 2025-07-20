@@ -5,7 +5,7 @@
 
 .main {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -62,7 +62,7 @@
 
 .productsGrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   margin-top: 40px;
 }
@@ -78,29 +78,6 @@
   gap: 40px;
   align-items: center;
   margin-top: 30px;
-}
-
-.delivery-map {
-  height: 400px;
-  background-color: #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.delivery-info {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.delivery-item {
-  display: flex;
-  gap: 15px;
-}
-
-.delivery-icon {
-  color: var(--secondary-color);
-  font-size: 1.5rem;
 }
 
 @media (max-width: 992px) {

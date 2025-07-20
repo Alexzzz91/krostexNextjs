@@ -4,6 +4,7 @@ import { Catalog } from './components/Catalog';
 import { About } from './components/About';
 import { Metadata } from 'next';
 import { SEO } from '@/data/seo';
+import { Services } from './components/Services';
 
 export const metadata: Metadata = {
   title: `${SEO.site_name}${SEO.title}`,
@@ -19,6 +20,8 @@ export default function Home() {
         <About />
         
         <Catalog />
+
+        <Services />
         
         <section className={styles.delivery}>
           <h2>Наша компания работает с инертными материалами следующих поставщиков: </h2>

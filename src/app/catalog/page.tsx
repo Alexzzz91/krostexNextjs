@@ -3,6 +3,7 @@ import { Catalog } from '../components/Catalog';
 import styles from './page.module.css'
 import { SEO } from '@/data/seo';
 import { Metadata } from 'next';
+import { Services } from '../components/Services';
 
 export const metadata: Metadata = {
   title: `${SEO.site_name}${SEO.title}`,
@@ -24,7 +25,7 @@ export default function CatalogPage() {
       <main className={styles.main}>  
         
         <Catalog />
-
+        <Services />
       </main>
     </>
   );

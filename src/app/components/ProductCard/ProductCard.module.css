@@ -5,6 +5,8 @@
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
   border: 1px solid var(--gray-color);
+  display: flex;
+  flex-direction: column;
 }
 
 .card:hover {
@@ -34,6 +36,7 @@
   color: var(--dark-color);
   min-height: 80px;
   border-bottom: 1px solid var(--gray-color);
+  flex: 1;
 }
 
 .specs {
