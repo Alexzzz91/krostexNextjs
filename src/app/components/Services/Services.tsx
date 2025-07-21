@@ -20,6 +20,8 @@ export function Services() {
                   className={styles.image}
                   width={350}
                   height={225}
+                  decoding="async" 
+                  loading="lazy"
                 />
                 <div className={styles.description}>
                    {service.description}

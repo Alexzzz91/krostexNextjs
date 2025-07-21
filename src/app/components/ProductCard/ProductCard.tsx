@@ -26,6 +26,8 @@ export function ProductCard({ product }: ProductCardProps) {
           className={styles.image}
           width={100}
           height={75}
+          decoding="async" 
+          loading="lazy"
         />
       </div>
       <p className={styles.description}>{product.description}</p>

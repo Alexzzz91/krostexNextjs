@@ -28,6 +28,7 @@ export default function RootLayout({
     <html lang="en">
       <meta property="og:type" content="website"></meta>
       <Head>
+        <meta name="robots" content="all" />
         <title>{SEO.site_name}{SEO.title}</title>
         <meta name="description" content={SEO.description} />
         <meta name="keywords" content={SEO.keywords}></meta>
@@ -66,6 +67,8 @@ export default function RootLayout({
           className="ym-advanced-informer"
           data-cid="37548255"
           data-lang="ru"
+          decoding="async" 
+          loading="lazy"
         />
       </a>
 
@@ -94,6 +97,8 @@ export default function RootLayout({
               left:-9999,
             }}
             alt="" 
+            decoding="async" 
+            loading="lazy"
           />
         </div>
       </noscript>

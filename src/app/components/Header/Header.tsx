@@ -26,6 +26,8 @@ export function Header() {
             width={192}
             height={192}
             alt={SEO.site_name}
+            decoding="async" 
+            loading="lazy"
           />
         </Link>
         
