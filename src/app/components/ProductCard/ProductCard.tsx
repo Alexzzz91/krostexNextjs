@@ -23,6 +23,7 @@ export function ProductCard({ product }: ProductCardProps) {
         <img
           src={product.image}
           alt={product.name}
+          title={product.name}
           className={styles.image}
           width={100}
           height={75}

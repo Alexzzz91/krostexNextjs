@@ -17,6 +17,7 @@ export function Services() {
                 <img
                   src={service.image}
                   alt={service.name}
+                  title={service.name}
                   className={styles.image}
                   width={350}
                   height={225}

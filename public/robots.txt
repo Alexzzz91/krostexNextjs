@@ -1,3 +1,6 @@
 User-agent: *
-Disallow: 
+Allow: https://xn--90aalmgvgdrhcgg.xn--p1ai/
+Allow: https://xn--90aalmgvgdrhcgg.xn--p1ai/catalog.html
+Allow: https://xn--90aalmgvgdrhcgg.xn--p1ai/about.html
+Allow: https://xn--90aalmgvgdrhcgg.xn--p1ai/contacts.html
 Sitemap: https://xn--90aalmgvgdrhcgg.xn--p1ai/sitemap.xml
