@@ -7,8 +7,8 @@ import { Services } from '../components/Services';
 
 export const metadata: Metadata = {
   title: `${SEO.site_name}${SEO.title}`,
-  description: SEO.description,
-  keywords: SEO.keywords,
+  description: 'купить бетон в омске с доставкой цена за куб от производителя',
+  keywords: 'цена за куб бетона в омске, бетон в омске, бетон в омске цена за куб с доставкой',
 }
 
 export default function CatalogPage() {

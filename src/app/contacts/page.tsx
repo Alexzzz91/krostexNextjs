@@ -5,10 +5,9 @@ import { SEO } from '@/data/seo';
 
 export const metadata: Metadata = {
   title: `${SEO.site_name}${SEO.title}`,
-  description: SEO.description,
-  keywords: SEO.keywords,
+  description: 'купить бетон м200 в омске с доставкой по городу и олбласти цена за куб от производителя',
+  keywords: 'Купить бетон М300 в Омске, бетон омск цена, бетон миксер цена омск',
 }
-
 
 export default function ContactsPage() {
   return (
