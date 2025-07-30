@@ -35,6 +35,20 @@ export default function RootLayout({
         <meta property="og:locale" content="ru_RU"></meta>
         <meta property="og:type" content="website"></meta>
         <meta property="og:site_name" content={SEO.site_name}></meta>
+        <noscript>
+          <div>
+            <img
+              src="https://mc.yandex.ru/watch/37548255" 
+              style={{
+                position: 'absolute', 
+                left:-9999,
+              }}
+              alt="" 
+              decoding="async" 
+              loading="lazy"
+            />
+          </div>
+        </noscript>
       </Head>
       
       <Header />
@@ -88,20 +102,7 @@ export default function RootLayout({
             });`
         }
       </Script>
-      <noscript>
-        <div>
-          <img
-            src="https://mc.yandex.ru/watch/37548255" 
-            style={{
-              position: 'absolute', 
-              left:-9999,
-            }}
-            alt="" 
-            decoding="async" 
-            loading="lazy"
-          />
-        </div>
-      </noscript>
+
       <Suspense fallback={<></>}>
         <YandexMetrika />
       </Suspense>
