@@ -22,7 +22,7 @@ export function Header() {
             priority
           /> */}
           <img
-            src={'/images/MixerTruckYellow-192x192.png'}
+            src={'/images/webp/MixerTruckYellow-192x192.webp'}
             width={192}
             height={192}
             alt={SEO.site_name}

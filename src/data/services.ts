@@ -4,13 +4,13 @@ export const SERVICES = [
     name: 'Аренда миксера',
     description: 'Воспользуйтесь арендой строительного миксера от нашей компании. Для тех, у кого появились вопросы по нашей продукции, мы предлагаем консультацию специалиста.',
     price: 4000,
-    image: '/images/mixer.jpg'
+    image: '/images/webp/mixer.webp'
   },
   {
     id: 2,
     name: 'Услуги бетононасоса',
     description: 'Выезд специалиста на объект для консультации бесплатно.',
     price: 4500,
-    image: '/images/nasos.jpg'
+    image: '/images/webp/nasos.webp'
   },
 ];

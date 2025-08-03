@@ -7,7 +7,7 @@ export const BETON = [
     frostResistance: 'F50-F100',
     mobility: 'П2-П4',
     price: 5000,
-    image: '/images/m100.jpg'
+    image: '/images/webp/m100.webp'
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const BETON = [
     frostResistance: 'F75-100',
     mobility: 'П1-П4',
     price: 5250,
-    image: '/images/m150.jpg'
+    image: '/images/webp/m150.webp'
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const BETON = [
     frostResistance: 'F100-150',
     mobility: 'П1-П5',
     price: 5400,
-    image: '/images/m200.jpg'
+    image: '/images/webp/m200.webp'
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ export const BETON = [
     frostResistance: 'F100-150',
     mobility: 'П2-П5',
     price: 5900,
-    image: '/images/m250.jpg'
+    image: '/images/webp/m250.webp'
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ export const BETON = [
     frostResistance: 'F100-F200',
     mobility: 'П2-П5',
     price: 6400,
-    image: '/images/m300.jpg'
+    image: '/images/webp/m300.webp'
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ export const BETON = [
     frostResistance: 'F100-F200',
     mobility: 'П2-П5',
     price: 6700,
-    image: '/images/m350.jpg'
+    image: '/images/webp/m350.webp'
   },
   {
     id: 7,
@@ -67,7 +67,7 @@ export const BETON = [
     frostResistance: 'F150-F300',
     mobility: 'П3-П5',
     price: 7000,
-    image: '/images/m400.jpg'
+    image: '/images/webp/m400.webp'
   },
   {
     id: 8,
@@ -77,7 +77,7 @@ export const BETON = [
     frostResistance: 'F100',
     mobility: 'П3-П5',
     price: 4300,
-    image: '/images/pm100.jpg'
+    image: '/images/webp/pm100.webp'
   },
   {
     id: 9,
@@ -87,7 +87,7 @@ export const BETON = [
     frostResistance: 'F50',
     mobility: 'П2-П4',
     price: 4700,
-    image: '/images/pm150.jpg'
+    image: '/images/webp/pm150.webp'
   },
   {
     id: 10,
@@ -97,6 +97,6 @@ export const BETON = [
     frostResistance: 'F100',
     mobility: 'П2-П4',
     price: 5300,
-    image: '/images/pm200.jpg'
+    image: '/images/webp/pm200.webp'
   },
 ];
