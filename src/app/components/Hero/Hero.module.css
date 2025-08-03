@@ -30,6 +30,18 @@
   background: url('/images/webp/BetonHero3.webp') no-repeat center center;
 }
 
+.overlay.overlay_mobile_1 {
+  background: url('/images/webp/mobile/BetonHero1.jpg') no-repeat center center;
+}
+
+.overlay.overlay_mobile_2 {
+  background: url('/images/webp/mobile/BetonHero2.jpg') no-repeat center center;
+}
+
+.overlay.overlay_mobile_3 {
+  background: url('/images/webp/mobile/BetonHero3.jpg') no-repeat center center;
+}
+
 
 .content {
   position: relative;
