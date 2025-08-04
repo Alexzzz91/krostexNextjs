@@ -2,6 +2,8 @@ import { Metadata } from 'next';
 import { Contacts } from '../components/Contacts';
 import styles from './page.module.css'
 import { SEO } from '@/data/seo';
+import { Catalog } from '../components/Catalog';
+import { Services } from '../components/Services';
 
 export const metadata: Metadata = {
   title: `${SEO.site_name}${SEO.title}`,
@@ -15,6 +17,8 @@ export default function ContactsPage() {
       <main className={styles.main}>  
         
         <Contacts />
+        <Catalog />
+        <Services />
 
       </main>
     </>

@@ -15,7 +15,7 @@ export function Footer() {
         <div className={styles.links}>
           <h4>Меню</h4>
           <Link href='/'>Главная</Link>
-          <Link href='/catalog.thml'>Каталог</Link>
+          <Link href='/catalog.html'>Каталог</Link>
           <Link href='/about.html'>О компании</Link>
           <Link href='/contacts.html'>Контакты</Link>
         </div>

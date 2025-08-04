@@ -1,6 +1,7 @@
 // import Image from 'next/image';
 import styles from './ProductCard.module.css';
 import { ClientButton } from './ClientButton';
+import { CONTACTS } from '@/data/contacts';
 
 type ProductCardProps = {
   product: {
@@ -40,6 +41,11 @@ export function ProductCard({ product }: ProductCardProps) {
       <div className={styles.price}>
         <span>от {product.price} ₽/м³</span>
         <ClientButton />
+      </div>
+      <div className={styles.price}>
+        <span>
+          <a href={`tel:${CONTACTS.whatsapp}`}>+7 (904) 589-90-75</a>
+        </span>
       </div>
     </div>
   );

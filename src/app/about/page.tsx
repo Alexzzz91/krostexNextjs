@@ -3,6 +3,8 @@ import { About } from '../components/About';
 import styles from './page.module.css'
 import { SEO } from '@/data/seo';
 import Head from 'next/head';
+import { Catalog } from '../components/Catalog';
+import { Services } from '../components/Services';
 
 export const metadata: Metadata = {
   title: `${SEO.site_name}${SEO.title}`,
@@ -24,6 +26,9 @@ export default function AboutPage() {
       <main className={styles.main}>  
         
         <About />
+
+        <Catalog />
+        <Services />
 
       </main>
     </>

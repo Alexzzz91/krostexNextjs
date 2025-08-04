@@ -1,6 +1,7 @@
 import { SERVICES } from '@/data/services'
 import styles from './Services.module.css'
 import { ClientButton } from '../ProductCard/ClientButton';
+import { CONTACTS } from '@/data/contacts';
 
 export function Services() {
   return (
@@ -30,6 +31,11 @@ export function Services() {
                 <div className={styles.price}>
                   <span>от {service.price} руб./час. </span>
                   <ClientButton />
+                </div>
+                <div className={styles.price}>
+                  <span>
+                    <a href={`tel:${CONTACTS.whatsapp}`}>+7 (904) 589-90-75</a>
+                  </span>
                 </div>
               </div>
             )

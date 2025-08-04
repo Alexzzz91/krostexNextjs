@@ -55,10 +55,19 @@
 }
 
 .price {
-  padding: 15px;
+  padding: 15px 15px 5px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.price + .price {
+  padding: 5px 15px 15px 15px;
+}
+
+.price + .price span {
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .price span {
@@ -82,7 +91,16 @@
 }
 
 @media (max-width: 576px) {
+  .description {
+    padding: 5px 15px;
+  }
+
   .specs {
     grid-template-columns: 1fr;
+    gap: 0px;
+  }
+
+  .price button {
+    padding: 10px 45px;
   }
 }

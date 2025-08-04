@@ -52,10 +52,13 @@ export default function RootLayout({
       </Head>
       
       <Header />
+
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
+      
       <Footer />
+      
       {
         SEO['JSON+LD'].map((content, i) => {
           return (
