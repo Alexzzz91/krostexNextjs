@@ -100,8 +100,6 @@ section h2::after {
   margin: 15px auto 0;
 }
 
-
-
 .btn {
   display: inline-block;
   padding: 12px 24px;
@@ -129,5 +127,14 @@ section h2::after {
   
   .section-title {
     font-size: 1.5rem;
+  }
+
+  section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  section h2::after {
+    margin: 0px auto 0;
   }
 }

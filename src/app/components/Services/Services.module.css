@@ -50,7 +50,7 @@
 }
 
 .price span {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: var(--primary-color);
 }
@@ -73,6 +73,10 @@
   .servicesGrid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .image {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -85,6 +89,6 @@
   }
 
   .price button {
-    padding: 10px 45px;
+    padding: 10px 20px;
   }
 }
