@@ -44,7 +44,7 @@ export function ProductCard({ product }: ProductCardProps) {
       </div>
       <div className={styles.price}>
         <span>
-          <a href={`tel:${CONTACTS.whatsapp}`}>+7 (904) 589-90-75</a>
+          <a href={`tel:${CONTACTS.whatsapp}`}>{CONTACTS.whatsappTitle}</a>
         </span>
       </div>
     </div>

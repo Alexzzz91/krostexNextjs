@@ -5,6 +5,7 @@ import { About } from './components/About';
 import { Metadata } from 'next';
 import { SEO } from '@/data/seo';
 import { Services } from './components/Services';
+import { Photos } from './components/Photos';
 
 export const metadata: Metadata = {
   title: `${SEO.site_name}${SEO.title}`,
@@ -15,6 +16,9 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
+      <head>
+        <link rel="manifest" href="/manifest.json" />
+      </head>
       <Hero />
       <main className={styles.main}>  
         <About />
@@ -32,6 +36,8 @@ export default function Home() {
             <p>  Бесперебойная поставка инертных материалов позволяют нам обеспечить заказчика продукцией высокого качества любым объемом. </p> 
           </div>
         </section>
+
+        <Photos />
       </main>
 
     </>

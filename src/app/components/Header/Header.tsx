@@ -39,7 +39,7 @@ export function Header() {
           <Link href="/contacts.html">Контакты</Link>
         </nav>
         <div className={styles.contacts}>
-          <a href={`tel:${CONTACTS.whatsapp}`}>+7 (904) 589-90-75</a>
+          <a href={`tel:${CONTACTS.whatsapp}`}>{CONTACTS.whatsappTitle}</a>
         </div>
       </div>
     </header>

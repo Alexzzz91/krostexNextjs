@@ -1,0 +1,86 @@
+
+.featuredProducts {
+  background-color: white;
+}
+
+.photoGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 1px solid var(--gray-color);
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.image {
+    display: flex;
+    margin: 0;
+    object-fit: fill;
+}
+
+.featuredProducts button {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.featuredProducts button:hover {
+  background-color: #e05d00;
+}
+
+.price {
+  padding: 15px 15px 5px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price + .price {
+  padding: 5px 15px 15px 15px;
+}
+
+.price + .price span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.price span {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+
+@media (max-width: 992px) {
+  .photoGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 576px) {
+  .photoGrid {
+    grid-template-columns: 1fr;
+  }
+}

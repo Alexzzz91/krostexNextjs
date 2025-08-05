@@ -2,6 +2,7 @@ export const CONTACTS = {
     adress: 'Омск, ул.Семиреченская 101А',
     email: 'krostexbeton@gmail.com',
     whatsapp: '+79045899075',
+    whatsappTitle: "+7 (904) 589-90-75",
     phones: [
         {
             href: '+79045899075',
