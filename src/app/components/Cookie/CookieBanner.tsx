@@ -1,5 +1,4 @@
 'use client';
-import styles from './Photos.module.css';
 
 export function CookieBanner() {
     return (     
